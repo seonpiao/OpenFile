@@ -33,7 +33,7 @@ class OpenFileCommand(sublime_plugin.TextCommand):
 			print('here')
 			open_file_path = os.path.join(file_path,file)
 		else:
-			config = sublime.load_settings("open_file.sublime-settings")
+			config = sublime.load_settings("OpenFile.sublime-settings")
 			base_path_pattern = re.compile(config.get('base_path_pattern'))
 			matched = base_path_pattern.match(file_path)
 			base_path = file_path
