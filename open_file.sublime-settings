@@ -1,0 +1,6 @@
+// to specify you're own, either edit this file, or copy/paste to
+// open_url.sublime-settings file in your User folder
+// if there is an open_url.sublime-settings in the User folder, Sublime ignores this file
+{
+	"base_path_pattern": "^.*/static/js"
+}
